@@ -7,7 +7,7 @@ HEX_FILTER = "".join([(len(repr(chr(i))) == 3) and chr(i) or '.' for i in range(
 
 # ASCII printable characters from 0 to 255, non printable = '.'
 # length of printable characters is 3
-# and This is how it looks like :  
+# and This is how it look like :  
     # "................................ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRS
     # TUVWXYZ[.]^_`abcdefghijklmnopqrstuvwxyz{|}~..................................¡¢£¤¥¦§¨
     # ©ª«¬.®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ"
